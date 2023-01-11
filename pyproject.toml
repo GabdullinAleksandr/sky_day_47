@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "day-47"
+version = "0.1.0"
+description = ""
+authors = ["Gabdullin_Alex <alexrexp@gmail.com>"]
+readme = "README.md"
+packages = [{include = "day_47"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+psycopg2 = "^2.9.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
